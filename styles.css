@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   border: solid 1px rgb(222, 35, 35);
 }
@@ -13,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -74,9 +77,18 @@ img {
   height: 300px;
 }
 
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
 .middle1 {
   display: flex;
   justify-content: center;
+}
+h2 {
+  font-size: 32px;
+  color: black;
 }
 
 .middle1-content {
@@ -103,15 +115,16 @@ img {
   flex-direction: column;
   justify-content: center;
   height: 2000px;
-  background-color: white;
+  background-color: #e5e7eb;
   align-items: center;
 }
 
 .middle2-content {
   font-size: 36px;
-  font-style: italic;
+  font-style: light italic;
   width: 800px;
   flex-shrink: 1;
+  color: #1f2937;
 }
 
 .author {
@@ -150,5 +163,9 @@ img {
   justify-content: center;
 }
 
-.subaction {
+.footer {
+  display: flex;
+  background-color: #192f37;
+  justify-content: center;
+  font-weight: 3000px;
 }
